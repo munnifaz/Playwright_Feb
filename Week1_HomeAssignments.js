@@ -169,7 +169,7 @@ SumOfAllValues();  */
 
  //************return duplicates*************************************
 
-  /* Arr1=[1,2,5,3,8,5,6,2,1]
+ /* let Arr1=[1,2,5,3,8,5,6,2,1]
  sortedarr=Arr1.sort();
  console.log(sortedarr);
  uniquearray=[];
@@ -186,9 +186,9 @@ SumOfAllValues();  */
        }   
     }
  } 
- console.log(uniquearray); */
+ console.log(uniquearray);
  
- 
+  */
 //*************************************************Occurances*****************************************
 
 /* Arr1=[1,5,3,8,6,2,2,2,2,2,2,2,2,2,2]
@@ -204,8 +204,8 @@ for (let i=0;i<=sortedarr.length-1;i++){
       }  
    }
 } 
-console.log(k); 
- */
+console.log(k);  */
+
 //*******************************************move zero's to the end************************ */
 /* 
  var numArray = new Float64Array([0,1,0,3,12]);
@@ -233,7 +233,7 @@ Finalarr=Arr3.concat(Arr2);
 console.log(Finalarr);  */
 
 //*************************************remove duplicates in an array******************************//
-const Arr1 = [1, 2, 5, 3, 8, 5, 6, 2, 1];
+/* const Arr1 = [1, 2, 5, 3, 8, 5, 6, 2, 1];
 const sortedarr = Arr1.slice().sort(); // Make a copy of Arr1 before sorting
 console.log(sortedarr);
 const uniquearray = [];
@@ -251,6 +251,6 @@ for (let i = 0; i < sortedarr.length; i++) {
     }
 }
 console.log(uniquearray);
-
+ */
 //*******Given two integer arrays nums1 and nums2, return an array of their intersection.
 // Each element in the result must be unique and you may return the result in any order.//********************* */
